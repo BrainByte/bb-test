@@ -1,0 +1,228 @@
+<scene upAxis="y" unitsPerMeter="1" unitType="meters" formatVersion="1.0" minOgreVersion="Latest version" author="EasyOgreExporter">
+    <environment>
+        <colourAmbient r="0" g="0" b="0" />
+        <colourBackground r="0" g="0" b="0" />
+    </environment>
+    <nodes>
+        <node name="sherman_fireflySherman_Firefly" id="0" isTarget="false">
+            <position x="0" y="0" z="0" />
+            <rotation qx="-0.7071068286895752" qy="-0" qz="-0" qw="-0.70710676908493042" />
+            <scale x="10" y="10" z="10" />
+            <entity name="sherman_fireflySherman_Firefly" id="1" meshFile="sherman_fireflySherman_Firefly.mesh" castShadows="true">
+                <subentities>
+                    <subentity index="0" materialName="sherman_fireflyM4A4_Sherman_Firefly_D_psd" />
+                </subentities>
+            </entity>
+            <node name="sherman_fireflyTower" id="2" isTarget="false">
+                <position x="3.0517579574507181e-08" y="0.097530446946620941" z="-0.19160041213035583" />
+                <rotation qx="-1.7763568394002505e-15" qy="-0" qz="-0" qw="-1" />
+                <scale x="1" y="1" z="1" />
+                <entity name="sherman_fireflyTower" id="3" meshFile="sherman_fireflyTower.mesh" castShadows="true">
+                    <subentities>
+                        <subentity index="0" materialName="sherman_fireflyM4A4_Sherman_Firefly_D_psd" />
+                    </subentities>
+                </entity>
+                <node name="sherman_fireflyGun" id="4" isTarget="false">
+                    <position x="0.00061653141165152192" y="0.099679343402385712" z="-0.04790014773607254" />
+                    <rotation qx="-1.7763568394002505e-15" qy="-0" qz="-0" qw="-1" />
+                    <scale x="1" y="1" z="1" />
+                    <entity name="sherman_fireflyGun" id="5" meshFile="sherman_fireflyGun.mesh" castShadows="true">
+                        <subentities>
+                            <subentity index="0" materialName="sherman_fireflyM4A4_Sherman_Firefly_D_psd" />
+                        </subentities>
+                    </entity>
+                    <node name="sherman_fireflyBarrel" id="6" isTarget="false">
+                        <position x="-4.5776367585403932e-08" y="0.012459076941013336" z="0.0048583680763840675" />
+                        <rotation qx="-1.7763568394002505e-15" qy="-0" qz="-0" qw="-1" />
+                        <scale x="1" y="1" z="1" />
+                        <entity name="sherman_fireflyBarrel" id="7" meshFile="sherman_fireflyBarrel.mesh" castShadows="true">
+                            <subentities>
+                                <subentity index="0" materialName="sherman_fireflyM4A4_Sherman_Firefly_D_psd" />
+                            </subentities>
+                        </entity>
+                    </node>
+                </node>
+            </node>
+            <node name="sherman_fireflyTrack_R" id="8" isTarget="false">
+                <position x="0" y="0" z="0" />
+                <rotation qx="-1.7763568394002505e-15" qy="-0" qz="-0" qw="-1" />
+                <scale x="1" y="1" z="1" />
+                <entity name="sherman_fireflyTrack_R" id="9" meshFile="sherman_fireflyTrack_R.mesh" castShadows="true">
+                    <subentities>
+                        <subentity index="0" materialName="sherman_fireflyTracks_Wheels_US_D_psd" />
+                    </subentities>
+                </entity>
+            </node>
+            <node name="sherman_fireflyTrack_L" id="10" isTarget="false">
+                <position x="0" y="0" z="0" />
+                <rotation qx="-1.7763568394002505e-15" qy="-0" qz="-0" qw="-1" />
+                <scale x="1" y="1" z="1" />
+                <entity name="sherman_fireflyTrack_L" id="11" meshFile="sherman_fireflyTrack_L.mesh" castShadows="true">
+                    <subentities>
+                        <subentity index="0" materialName="sherman_fireflyTracks_Wheels_US_D_psd" />
+                    </subentities>
+                </entity>
+            </node>
+            <node name="sherman_fireflyWheel_R_08" id="12" isTarget="false">
+                <position x="-0.1165572926402092" y="-0.1849747896194458" z="-0.070182330906391144" />
+                <rotation qx="-1.7763568394002505e-15" qy="-0" qz="-0" qw="-1" />
+                <scale x="1" y="1" z="1" />
+                <entity name="sherman_fireflyWheel_R_08" id="13" meshFile="sherman_fireflyWheel_R_08.mesh" castShadows="true">
+                    <subentities>
+                        <subentity index="0" materialName="sherman_fireflyTracks_Wheels_US_D_psd" />
+                    </subentities>
+                </entity>
+            </node>
+            <node name="sherman_fireflyWheel_R_07" id="14" isTarget="false">
+                <position x="-0.11491365730762482" y="-0.10630764067173004" z="-0.029043445363640785" />
+                <rotation qx="-1.7763568394002505e-15" qy="-0" qz="-0" qw="-1" />
+                <scale x="1" y="1" z="1" />
+                <entity name="sherman_fireflyWheel_R_07" id="15" meshFile="sherman_fireflyWheel_R_07.mesh" castShadows="true">
+                    <subentities>
+                        <subentity index="0" materialName="sherman_fireflyTracks_Wheels_US_D_psd" />
+                    </subentities>
+                </entity>
+            </node>
+            <node name="sherman_fireflyWheel_R_06" id="16" isTarget="false">
+                <position x="-0.11491365730762482" y="-0.018598085269331932" z="-0.029043441638350487" />
+                <rotation qx="-1.7763568394002505e-15" qy="-0" qz="-0" qw="-1" />
+                <scale x="1" y="1" z="1" />
+                <entity name="sherman_fireflyWheel_R_06" id="17" meshFile="sherman_fireflyWheel_R_06.mesh" castShadows="true">
+                    <subentities>
+                        <subentity index="0" materialName="sherman_fireflyTracks_Wheels_US_D_psd" />
+                    </subentities>
+                </entity>
+            </node>
+            <node name="sherman_fireflyWheel_R_05" id="18" isTarget="false">
+                <position x="-0.11491365730762482" y="0.050993584096431732" z="-0.029043439775705338" />
+                <rotation qx="-1.7763568394002505e-15" qy="-0" qz="-0" qw="-1" />
+                <scale x="1" y="1" z="1" />
+                <entity name="sherman_fireflyWheel_R_05" id="19" meshFile="sherman_fireflyWheel_R_05.mesh" castShadows="true">
+                    <subentities>
+                        <subentity index="0" materialName="sherman_fireflyTracks_Wheels_US_D_psd" />
+                    </subentities>
+                </entity>
+            </node>
+            <node name="sherman_fireflyWheel_R_04" id="20" isTarget="false">
+                <position x="-0.11491365730762482" y="0.13845513761043549" z="-0.029043439775705338" />
+                <rotation qx="-1.7763568394002505e-15" qy="-0" qz="-0" qw="-1" />
+                <scale x="1" y="1" z="1" />
+                <entity name="sherman_fireflyWheel_R_04" id="21" meshFile="sherman_fireflyWheel_R_04.mesh" castShadows="true">
+                    <subentities>
+                        <subentity index="0" materialName="sherman_fireflyTracks_Wheels_US_D_psd" />
+                    </subentities>
+                </entity>
+            </node>
+            <node name="sherman_fireflyWheel_R_03" id="22" isTarget="false">
+                <position x="-0.11491365730762482" y="0.21481971442699432" z="-0.029043437913060188" />
+                <rotation qx="-1.7763568394002505e-15" qy="-0" qz="-0" qw="-1" />
+                <scale x="1" y="1" z="1" />
+                <entity name="sherman_fireflyWheel_R_03" id="23" meshFile="sherman_fireflyWheel_R_03.mesh" castShadows="true">
+                    <subentities>
+                        <subentity index="0" materialName="sherman_fireflyTracks_Wheels_US_D_psd" />
+                    </subentities>
+                </entity>
+            </node>
+            <node name="sherman_fireflyWheel_R_02" id="24" isTarget="false">
+                <position x="-0.11491365730762482" y="0.30193126201629639" z="-0.029043441638350487" />
+                <rotation qx="-1.7763568394002505e-15" qy="-0" qz="-0" qw="-1" />
+                <scale x="1" y="1" z="1" />
+                <entity name="sherman_fireflyWheel_R_02" id="25" meshFile="sherman_fireflyWheel_R_02.mesh" castShadows="true">
+                    <subentities>
+                        <subentity index="0" materialName="sherman_fireflyTracks_Wheels_US_D_psd" />
+                    </subentities>
+                </entity>
+            </node>
+            <node name="sherman_fireflyWheel_R_01" id="26" isTarget="false">
+                <position x="-0.12363208830356598" y="0.36008337140083313" z="-0.077058665454387665" />
+                <rotation qx="-1.7763568394002505e-15" qy="-0" qz="-0" qw="-1" />
+                <scale x="1" y="1" z="1" />
+                <entity name="sherman_fireflyWheel_R_01" id="27" meshFile="sherman_fireflyWheel_R_01.mesh" castShadows="true">
+                    <subentities>
+                        <subentity index="0" materialName="sherman_fireflyTracks_Wheels_US_D_psd" />
+                    </subentities>
+                </entity>
+            </node>
+            <node name="sherman_fireflyWheel_L_01" id="28" isTarget="false">
+                <position x="0.12363208830356598" y="0.36008337140083313" z="-0.077058665454387665" />
+                <rotation qx="-1.7763568394002505e-15" qy="-0" qz="-0" qw="-1" />
+                <scale x="1" y="1" z="1" />
+                <entity name="sherman_fireflyWheel_L_01" id="29" meshFile="sherman_fireflyWheel_L_01.mesh" castShadows="true">
+                    <subentities>
+                        <subentity index="0" materialName="sherman_fireflyTracks_Wheels_US_D_psd" />
+                    </subentities>
+                </entity>
+            </node>
+            <node name="sherman_fireflyWheel_L_02" id="30" isTarget="false">
+                <position x="0.11365639418363571" y="0.30193126201629639" z="-0.029043441638350487" />
+                <rotation qx="-1.7763568394002505e-15" qy="-0" qz="-0" qw="-1" />
+                <scale x="1" y="1" z="1" />
+                <entity name="sherman_fireflyWheel_L_02" id="31" meshFile="sherman_fireflyWheel_L_02.mesh" castShadows="true">
+                    <subentities>
+                        <subentity index="0" materialName="sherman_fireflyTracks_Wheels_US_D_psd" />
+                    </subentities>
+                </entity>
+            </node>
+            <node name="sherman_fireflyWheel_L_03" id="32" isTarget="false">
+                <position x="0.11365639418363571" y="0.21481971442699432" z="-0.029043437913060188" />
+                <rotation qx="-1.7763568394002505e-15" qy="-0" qz="-0" qw="-1" />
+                <scale x="1" y="1" z="1" />
+                <entity name="sherman_fireflyWheel_L_03" id="33" meshFile="sherman_fireflyWheel_L_03.mesh" castShadows="true">
+                    <subentities>
+                        <subentity index="0" materialName="sherman_fireflyTracks_Wheels_US_D_psd" />
+                    </subentities>
+                </entity>
+            </node>
+            <node name="sherman_fireflyWheel_L_04" id="34" isTarget="false">
+                <position x="0.11365639418363571" y="0.13845513761043549" z="-0.029043439775705338" />
+                <rotation qx="-1.7763568394002505e-15" qy="-0" qz="-0" qw="-1" />
+                <scale x="1" y="1" z="1" />
+                <entity name="sherman_fireflyWheel_L_04" id="35" meshFile="sherman_fireflyWheel_L_04.mesh" castShadows="true">
+                    <subentities>
+                        <subentity index="0" materialName="sherman_fireflyTracks_Wheels_US_D_psd" />
+                    </subentities>
+                </entity>
+            </node>
+            <node name="sherman_fireflyWheel_L_05" id="36" isTarget="false">
+                <position x="0.11365639418363571" y="0.050993584096431732" z="-0.029043439775705338" />
+                <rotation qx="-1.7763568394002505e-15" qy="-0" qz="-0" qw="-1" />
+                <scale x="1" y="1" z="1" />
+                <entity name="sherman_fireflyWheel_L_05" id="37" meshFile="sherman_fireflyWheel_L_05.mesh" castShadows="true">
+                    <subentities>
+                        <subentity index="0" materialName="sherman_fireflyTracks_Wheels_US_D_psd" />
+                    </subentities>
+                </entity>
+            </node>
+            <node name="sherman_fireflyWheel_L_06" id="38" isTarget="false">
+                <position x="0.11365639418363571" y="-0.018598085269331932" z="-0.029043441638350487" />
+                <rotation qx="-1.7763568394002505e-15" qy="-0" qz="-0" qw="-1" />
+                <scale x="1" y="1" z="1" />
+                <entity name="sherman_fireflyWheel_L_06" id="39" meshFile="sherman_fireflyWheel_L_06.mesh" castShadows="true">
+                    <subentities>
+                        <subentity index="0" materialName="sherman_fireflyTracks_Wheels_US_D_psd" />
+                    </subentities>
+                </entity>
+            </node>
+            <node name="sherman_fireflyWheel_L_07" id="40" isTarget="false">
+                <position x="0.11365639418363571" y="-0.10630764067173004" z="-0.029043445363640785" />
+                <rotation qx="-1.7763568394002505e-15" qy="-0" qz="-0" qw="-1" />
+                <scale x="1" y="1" z="1" />
+                <entity name="sherman_fireflyWheel_L_07" id="41" meshFile="sherman_fireflyWheel_L_07.mesh" castShadows="true">
+                    <subentities>
+                        <subentity index="0" materialName="sherman_fireflyTracks_Wheels_US_D_psd" />
+                    </subentities>
+                </entity>
+            </node>
+            <node name="sherman_fireflyWheel_L_08" id="42" isTarget="false">
+                <position x="0.1165572926402092" y="-0.1849747896194458" z="-0.070182330906391144" />
+                <rotation qx="-1.7763568394002505e-15" qy="-0" qz="-0" qw="-1" />
+                <scale x="1" y="1" z="1" />
+                <entity name="sherman_fireflyWheel_L_08" id="43" meshFile="sherman_fireflyWheel_L_08.mesh" castShadows="true">
+                    <subentities>
+                        <subentity index="0" materialName="sherman_fireflyTracks_Wheels_US_D_psd" />
+                    </subentities>
+                </entity>
+            </node>
+        </node>
+    </nodes>
+</scene>

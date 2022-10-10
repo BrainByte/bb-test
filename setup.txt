@@ -1,0 +1,87 @@
+install msys2
+
+#### Note
+
+```
+pacman -S mingw-w64-x86_64-ogre3d
+```
+DO NOT install the pacman version of ogre3d
+this version is not compiled with the symbol extension that works with mingw gdb
+You should compile the github version of ogre with the added cmake variable
+
+CMAKE_CXX_FLAGS_DEBUG : -ggdb3 -O0
+CMAKE_C_FLAGS_DEBUG : -ggdb3 -O0
+
+#### Install DirectX SDK June 2010
+
+Search google and download and install to C:\DirectXSDK
+
+Create a folder in msys /dxsdk
+
+Then edit the Msys file
+```
+vi /etc/fstab
+C:/DirectXSDK/ /dxsdk
+```
+
+#### Install Packages
+
+pacman -Syu
+pacman -S git
+# pacman -S make
+pacman -S mingw-w64-x86_64-nvidia-cg-toolkit
+pacman -S mingw-w64-x86_64-cmake
+pacman -S mingw-w64-x86_64-pugixml
+pacman -S mingw-w64-x86_64-assimp
+pacman -S mingw-w64-x86_64-gcc
+pacman -S mingw-w64-x86_64-gdb
+pacman -S mingw-w64-x86_64-freetype
+pacman -S mingw-w64-x86_64-python2
+pacman -S mingw-w64-x86_64-qt6-base
+pacman -S mingw-w64-x86_64-make
+
+#### Building Ogre3d
+
+Inside the code folder /c/data/c-code/ogre
+create a folder called build
+cd to build folder
+```
+cmake-gui
+```
+set the source folder to C:/data/c-code/ogre
+
+then run configure and choose 'MinGW Makefiles'
+
+Then the dependencies will be built and after a while you will see the red options at this point you need to add
+```
+CMAKE_CXX_FLAGS_DEBUG : -ggdb3 -O0
+CMAKE_C_FLAGS_DEBUG : -ggdb3 -O0
+```
+and then click configure again so the red values are accepted
+
+Once complete you call generate which create the makefiles and then exit the gui tool
+
+then call
+```
+mingw32-make
+```
+followed by
+```
+mingw32-make install
+```
+
+#### Update PATH
+
+Add the following to both Windows and MSYS Path
+
+C:\data\c-code\ogre\build\sdk\bin
+/c/data/c-code/ogre/build/sdk/bin
+
+#### Useful Tips
+
+When you debug break inside Clion you can switch to gdb and enter commands
+
+```
+info dll
+```
+This showed me that the loaded DLL was the pacman version and not the built version that had the extended debug symbols

@@ -1,0 +1,42 @@
+material "sherman_fireflyM4A4_Sherman_Firefly_D_psd"
+{
+	technique sherman_fireflyM4A4_Sherman_Firefly_D_psd_technique
+	{
+		pass sherman_fireflyM4A4_Sherman_Firefly_D_psd_standard
+		{
+			shading phong
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 0 0 0 0 0
+			emissive 0 0 0 1
+
+			texture_unit sherman_fireflyM4A4_Sherman_Firefly_D_psd_Diffuse#0
+			{
+				texture sherman_fireflyM4A4_Sherman_Firefly_D.jpg
+				tex_coord_set 0
+				colour_op modulate
+			}
+		}
+	}
+}
+material "sherman_fireflyTracks_Wheels_US_D_psd"
+{
+	technique sherman_fireflyTracks_Wheels_US_D_psd_technique
+	{
+		pass sherman_fireflyTracks_Wheels_US_D_psd_standard
+		{
+			shading phong
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 0 0 0 0 0
+			emissive 0 0 0 1
+
+			texture_unit sherman_fireflyTracks_Wheels_US_D_psd_Diffuse#0
+			{
+				texture sherman_fireflyTracks_Wheels_US_D.jpg
+				tex_coord_set 0
+				colour_op modulate
+			}
+		}
+	}
+}
